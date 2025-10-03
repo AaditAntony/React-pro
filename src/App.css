@@ -1,0 +1,8 @@
+h1{
+  background-color: red;
+  color: white;
+}
+/* npm create vite@latest my-app =>used to create the project
+  cd my-app => to enter into the project folder 
+npm install => to install the dependencies
+ npm run dev => to run the site*/
