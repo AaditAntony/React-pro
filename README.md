@@ -18,3 +18,4 @@ If you are developing a production application, we recommend using TypeScript wi
 
 // today i have uploaded react project
 // learned how to add html tags in react
+// have learned props in react using java script
