@@ -1,10 +1,12 @@
 import React from 'react'
 import './Navbar.css'
 import Button from '../Button/Button'
+import { FaBars } from "react-icons/fa6";
 
 
 const Navbar = () => {
   const onGreet=()=>{console.log("welcome to react props")}
+  
   return (
     <nav>
         
@@ -26,7 +28,12 @@ const Navbar = () => {
 
 
             </div>
-            
+            <div className='authbtns'>
+<Button content='Login' fncall={onGreet} bgColor="orange"/>
+<Button content='SignUp' fncall={onGreet} bgColor="red"/>
+
+            </div>
+            <div className='toggleBar'><FaBars  /></div>
     
     </nav>
   )
