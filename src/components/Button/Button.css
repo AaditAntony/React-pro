@@ -3,6 +3,7 @@
     margin: 0 10px;
     font-size: 20px;
     color: white;
+    background-color: var(--bg-color,blue);
     border: none;
     border-radius: 10px;
 

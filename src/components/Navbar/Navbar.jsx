@@ -4,10 +4,11 @@ import Button from '../Button/Button'
 
 
 const Navbar = () => {
+  const onGreet=()=>{console.log("welcome to react props")}
   return (
     <nav>
         
-            <div className='logo'>
+            <div className='logo' onClick={onGreet}>
                 <img src= "./vite.svg" alt="logo"/>
         
             </div>
@@ -19,8 +20,9 @@ const Navbar = () => {
                
             </div>
             <div className='btn'>
-               <Button/>
-               <Button/>
+               <Button content="Login" bgColor="orange" fncall={onGreet}/>
+               <Button content="SignUp" bgColor="red"/>
+             
 
 
             </div>
