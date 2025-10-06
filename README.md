@@ -21,3 +21,4 @@ If you are developing a production application, we recommend using TypeScript wi
 // have learned props in react using java script
 // currently learning propstypes
 // learned the props
+// moving to meadia query
