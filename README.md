@@ -23,3 +23,4 @@ If you are developing a production application, we recommend using TypeScript wi
 // learned the props
 // moving to meadia query
 // chainging the navigation section
+// currently doing the navbar when the screen reaches 750
