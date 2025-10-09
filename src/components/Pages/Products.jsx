@@ -1,6 +1,6 @@
 import React, { useEffect,useState } from 'react'
 import Navbar from '../Navbar/Navbar'
-import './Products.css'
+
 
 export const Products = () => {
 const [Products,setProducts]=React.useState([])
